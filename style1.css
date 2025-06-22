@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Amazon Ember", Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: #0f171e;
+  }
+  
+  .logo {
+    font-size: 24px;
+    color: #00a8e1;
+    font-weight: bold;
+  }
+  
+  .nav-buttons a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+  }
+  
+  .btn {
+    background-color: #0f79af;
+    padding: 8px 16px;
+    border-radius: 4px;
+  }
+  
+  .hero {
+    background: linear-gradient(to right, #000 50%, transparent),
+      url('https://m.media-amazon.com/images/G/31/AmazonVideo/2019/1102620_MLP_1440x675_apv189_V3._CB1198675309_.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+  }
+  
+  .hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .cta-btn {
+    background-color: #0f79af;
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 40px;
+    background-color: #1b1b1b;
+  }
+  
+  .feature {
+    text-align: center;
+    max-width: 300px;
+  }
+  
+  .feature img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .feature h2 {
+    font-size: 22px;
+    color: #00a8e1;
+    margin-bottom: 10px;
+  }
+  
+  /* New Section: Testimonials */
+  .testimonials {
+    background-color: #111;
+    padding: 50px 40px;
+    text-align: center;
+  }
+  
+  .testimonials h2 {
+    color: #00a8e1;
+    margin-bottom: 30px;
+  }
+  
+  .testimonial-cards {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .testimonial-cards .card {
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 250px;
+    font-size: 16px;
+  }
+  
+  /* New Section: Pricing */
+  .pricing {
+    padding: 50px 40px;
+    background-color: #0d0d0d;
+    text-align: center;
+  }
+  
+  .pricing h2 {
+    color: #00a8e1;
+    margin-bottom: 30px;
+  }
+  
+  .plans {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .plan {
+    background-color: #1b1b1b;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 220px;
+  }
+  
+  .plan h3 {
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .plan p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #00a8e1;
+  }
+  
+  .plan ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .plan ul li {
+    margin-bottom: 5px;
+    font-size: 15px;
+  }
+  
+  /* New Section: FAQ */
+  .faq {
+    background-color: #111;
+    padding: 50px 40px;
+  }
+  
+  .faq h2 {
+    color: #00a8e1;
+    margin-bottom: 20px;
+  }
+  
+  .faq details {
+    margin-bottom: 15px;
+    background-color: #1f1f1f;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .faq summary {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .faq p {
+    font-size: 14px;
+    margin-top: 8px;
+    color: #bbb;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #0f171e;
+    padding: 20px;
+    text-align: center;
+    color: #bbb;
+    font-size: 14px;
+  }
+  

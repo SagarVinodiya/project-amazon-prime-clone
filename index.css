@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    font-family: "Amazon Ember", "Amazon Arabic Ember", Arial, sans-serif !important;
+}
+
+.whole {
+    width: 100%;
+}
+
+/* Header */
+.head {
+    padding: 15px 17px;
+    display: flex;
+    width: 100%;
+    background-color: #1b2530;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navlogo {
+    background-image: url(your-logo-url);
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-indent: -9999px;
+    width: 112px;
+    height: 40px;
+    margin: 10px;
+    position: relative;
+    top: 2px;
+    background-position: left 0;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+.iconify {
+    color: white;
+}
+
+.head div {
+    color: white;
+}
+
+.lang {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.sigin {
+    margin-left: 7px;
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Common Content Section */
+.content,
+.login-now,
+.start,
+.memberships,
+.tv-stick,
+.family {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-left,
+.content-left-2,
+.content-left-3,
+.content-right,
+.content-right-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    padding: 50px 5%;
+    min-height: 70vh;
+}
+
+/* Part-1 */
+.login-now {
+    background-color: #000;
+    background-image: linear-gradient(to right, #000 40%, transparent 58%),
+        url('https://m.media-amazon.com/images/G/31/AmazonVideo/2019/1102620_MLP_1440x675_apv189_V3._CB1198675309_.jpg');
+    background-position: right top;
+}
+
+.content-left {
+    width: 40%;
+}
+
+.welcome,
+.entertainment,
+.memeber-h1,
+.firetv-h1,
+.friendly {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.join,
+.detail,
+.benefits,
+.firetv-use,
+.friend {
+    margin-top: 10px;
+    font-size: 21px;
+}
+
+.login-prime,
+.started {
+    background-color: #0f79af;
+    color: #fff;
+    margin-top: 38px;
+    padding: 16px 18px;
+    border-radius: 2px;
+    width: 250px;
+    text-align: center;
+}
+
+.login-link,
+.start-link {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+/* Part-2 */
+.start {
+    background-color: #000;
+    background-image: linear-gradient(to left, #000 40%, transparent 58%),
+        url('https://m.media-amazon.com/images/G/01/digital/video/Magellan_MLP/IN-Living-Room-V2._CB524587855_.jpg');
+    background-position: left top;
+}
+
+.content-right {
+    width: 58%;
+    padding-left: 1100px;
+}
+
+/* Part-3 */
+.memberships {
+    background-image: linear-gradient(to right, #000 40%, transparent 58%),
+        url('https://m.media-amazon.com/images/G/01/digital/video/Magellan_MLP/PRIME_multi-benefit_MAGNET_2X._CB1519820207_.jpg');
+    background-position: right top;
+}
+
+.content-left-2 {
+    width: 40%;
+}
+
+.asterik {
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* Part-4 */
+.tv-stick {
+    background-image: linear-gradient(to left, #000 40%, transparent 58%),
+        url('https://images-na.ssl-images-amazon.com/images/G/01/digital/video/Magellan_MLP/MLP_Template_Image_Left.jpg');
+    background-position: left top;
+}
+
+.content-right-2 {
+    width: 40%;
+    padding-left: 1000px;
+}
+
+/* Part-5 */
+.multi-content {
+    display: flex;
+    padding: 60px 5% 30px;
+    justify-content: space-between;
+    min-height: 47vh;
+}
+
+.img3,
+.first,
+.second,
+.third {
+    text-align: center;
+}
+
+.h22 {
+    font-size: 36px;
+}
+
+.para {
+    font-size: 21px;
+}
+
+/* Part-6 */
+.family {
+    background-image: linear-gradient(to right, #000 40%, transparent 58%),
+        url('https://m.media-amazon.com/images/G/01/digital/video/Magellan_MLP/IN-kids-30Jan._CB1517304519_.jpg');
+    background-position: right top;
+}
+
+.content-left-3 {
+    width: 40%;
+}
+
+/* Footer */
+.foot {
+    text-align: center;
+    background-color: #222;
+    font-size: 15px;
+    padding: 30px;
+    height: 80px;
+}
+
+.foot-links {
+    display: flex;
+    justify-content: center;
+}
+
+.lis-of-links,
+.list-of-links li {
+    display: flex;
+    text-decoration: none;
+}
+
+.list-of-links li {
+    list-style: none;
+    padding: 4px;
+}
+
+.links {
+    text-decoration: none;
+    color: #0f79af;
+}
+
+.link-para {
+    color: #b1b1b1;
+}
