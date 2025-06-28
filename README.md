@@ -18,7 +18,7 @@ PrimeStream is a front-end clone of Amazon Prime Video, designed using **HTML** 
 
 ## 📁 Project Structure
 
-```bash
+bash
 project-amazon-prime-clone/
 ├── index.html
 ├── style1.css
