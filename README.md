@@ -27,6 +27,6 @@ project-amazon-prime-clone/
 Sagar Vinodiya
 📧 Email: sagarvinodiya@gmail.com
 🐙 GitHub: @SagarVinodiya
-💼 LinkedIn: Sagar Vinodiya
+💼 LinkedIn:https://www.linkedin.com/in/sagar-vinodiya-33893a28a/
 
 
