@@ -4,7 +4,7 @@ PrimeStream is a front-end clone of Amazon Prime Video, designed using **HTML** 
 
 ---
 
-##🌟 Features
+## 🌟 Features
 
 - 🎥 Hero Section with streaming banner
 - 📱 Responsive design layout
