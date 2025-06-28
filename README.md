@@ -23,3 +23,10 @@ project-amazon-prime-clone/
 ├── index.html
 ├── style1.css
 └── README.md
+👤 Author
+Sagar Vinodiya
+📧 Email: sagarvinodiya@gmail.com
+🐙 GitHub: @SagarVinodiya
+💼 LinkedIn: Sagar Vinodiya
+
+
